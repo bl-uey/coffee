@@ -1,0 +1,470 @@
+/* الصقحة الرئيسية الهوم*/
+
+body{ 
+    background-color:#916464;
+}
+
+/* العنوان الرئيسي للموقع*/
+.head{
+  
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 70px;
+   color: rgb(177, 214, 255);
+  overflow: hidden;
+   top: 2;
+ text-align: center;
+ padding-top: 0%;
+ padding-top: 2PX;
+ border-style:groove;
+ border-color: rgb(174, 133, 133);
+ margin: 0%;
+ background-color: #663939;
+ text-shadow: 2px 2px 4px #000000;
+
+}
+
+/* اللوقو*/
+
+.logo{
+    
+border-radius: 50%;
+padding: 0%;
+border: none;
+width: 80px; 
+top: 3px;
+right: 20px;
+position:absolute;
+
+
+}
+
+/*تنسيق قائمة الناف */
+nav{ 
+    
+    font-size: large;
+    font:bold;
+    background-color: #976666;
+    float: center;
+    
+
+      
+    }
+     ul {
+        list-style-type: none;
+        margin: 100;
+        padding: 20;
+        overflow: hidden;
+        position: top;
+        background-color: #663939;
+        padding-left: 0%;
+        margin-top: 2px;
+        
+        }
+
+      li {
+        float:left;  
+         }
+      
+      li a{
+        display: block;
+        color: rgb(177, 214, 255);
+        text-align: center;
+        font-size: large;
+        padding: 10px 20px;
+        text-decoration: none;
+      
+       font-weight: bold;
+       margin-left: 150px; }
+      
+       /* تنسيق ال mian*/
+main {
+  display: flex; 
+  flex-direction: column; 
+  align-items: center;
+  padding: 20px;
+  margin-right: 150px;
+  text-align: center;
+}
+
+/* صورة المقهى */
+main img {
+  width: 100%;
+  max-width: 600px; 
+  border-radius: 10px;
+  
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  margin-top: 40px; 
+  margin-bottom: 5px;}
+
+/* النصوص داخل main */
+main p {
+  
+  font-size: 18px;
+  word-spacing: 4px;
+  line-height: 1.7;
+  color: #4f3434;
+  font-weight: bolder;}
+
+
+/* زر CTA */
+
+.cta-button {
+  
+  font-size: 25px;
+ background-color: #735258;
+ align-items: center;
+ display: block;
+ font-family: sans-serif ;
+ text-shadow: 2px 2px #663939;
+ text-align: center;
+ text-decoration: none;
+ margin-left: auto;
+ margin-right: auto;
+ color: white;
+ padding: 10px 25px;
+ border:none;
+ border-radius: 5px;
+ margin-top: 0px;
+
+}
+.cta-button:hover{
+      background-color:rgb(189, 148, 148);
+     }
+
+
+/* شعار الموقع*/
+main span {
+  font-style: italic;
+  color: #7d4444;
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
+   width: bolder;
+   margin-bottom: 0%;
+   text-shadow: 1px 2px #00000053;
+}
+
+
+
+
+
+
+
+    
+aside .container {
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+  position: absolute;
+  right: 20px; 
+  
+  top: 150px; 
+  width: 270px; 
+  gap: 10px; 
+  padding: 10px; 
+  padding-bottom: 10px;
+ 
+  
+  
+}
+
+
+
+.coffee {
+  font-family: Verdana, Geneva, Tahoma, sans-serif; /* خط مناسب */
+  text-align:center; 
+  font-size: 15px; 
+  color: #f2ebeb; 
+  margin-top: 10px; 
+  margin-bottom: 10px;}
+
+.img-cards{
+  width: 100%;
+  background-color: #603d3d;
+ text-align: center;
+ padding: 5px;
+ flex-direction: column; 
+ align-items: center; 
+ justify-content: center;
+ display: flex;}
+
+.img-cards img{
+
+  width: 200%; 
+  max-width: 200px; 
+  border-radius: 5px; 
+  margin-bottom: 2px;
+  margin-top: 10px;
+  height: auto;}
+
+
+
+.location {
+  margin: 30px 0;}
+
+  .loca{
+   
+    font-size: 25px;
+    color: #ffffff;
+   font-family: 'Times New Roman', Times, serif;
+    text-shadow: #8f6d6d89;
+    text-decoration:none;
+   padding: 1%;
+   margin-right: 20px;
+   margin-top: 100px;
+   margin-bottom: 100px;
+   margin-left: auto;
+   
+   border-radius: 3px;
+   vertical-align:bottom ;
+   background-color: #603d3d93;
+   display: inline-block;}
+
+
+
+
+/* تنسيق الفوتر */
+footer {
+  background-color:  #704b4b;
+  box-sizing:border-box;
+  padding: 10px;
+  text-align: center;
+  background-size:auto;
+  margin-top:0;}
+
+  .contact-info {
+    margin: 10px 0;
+    font-size: 20px;
+    text-decoration:double;
+    text-shadow: 2px 2px #000000;}
+
+ 
+ .working-hours{
+  color: #ffddc1;
+  text-decoration: none;}
+
+.location , .working-hours , div{
+  width: 100%;
+  text-align: center;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color:rgb(110, 147, 192);
+  font-size: large;
+  text-shadow: 1px 1px #000000;
+  font-style: italic;
+  font-weight:200;}
+  
+
+ a:hover{
+  color:rgb(177, 139, 139) ;}
+
+ a{
+  color: #ffffff;
+ }
+ 
+
+
+
+
+
+
+
+/* تنسيق صفحة الاوردرينق*/ 
+body {   font-family: 'Arial', sans-serif; 
+    background-color: #c9b0a2;  
+     margin: 0;   
+     padding: 0; 
+     color: #3e2723;
+      text-align: center; }
+
+/* العنوان */
+h1.order {
+  color: rgb(177, 214, 255);
+  font-size: 90px;
+  margin-top: 30px;
+  text-shadow: 4px 4px 7px #54423a;
+  background-color: #9f867dc4;
+  padding: 1%;
+  letter-spacing: 2px; }
+
+
+.ordering {
+  font-size: 50px;
+  line-height: 1.2;
+  margin: 10px auto;
+  width: 100%;
+  padding-top: 10px; }
+
+
+/* الفورم*/
+form  {
+  background-color: #745f5f;
+  width: 50%;
+  margin: 20px auto;
+
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(140, 59, 59, 0.1);
+  text-align: left;}
+
+
+form div {
+  margin-bottom: 20px;
+}
+form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #2d1616;
+  font-size: 30px; }
+
+ 
+
+form input[type="text"],
+form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #b8a9a4;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 1em;
+  background-color: #dcc6c6;}
+
+form textarea {
+  height: 150px;
+  resize: none;}
+
+/* الازرار*/ 
+form input[type="submit"],
+form input[type="reset"]
+ {
+  background-color: #8d6e63;
+  color: white;
+  border: none;
+  padding: 10px 30px;
+
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 30px;
+  font-weight: bold;
+
+  margin-right: 10px;}
+
+form input[type="submit"]:hover
+ { background-color: #a5887f;}
+
+form input[type="reset"]:hover 
+{ background-color: #a1887f;}
+
+
+
+
+
+
+
+
+/* تنسيق صفحة المنيو*/
+
+.menu-hidding{
+  color: rgb(177, 214, 255);;
+  font-size: 45px;
+  margin-top: 15px;
+  text-shadow: 2px 3px 7px #54423a;
+  background-color: #9f867dc4;
+  padding: 1%;
+  word-spacing: 3px;
+  letter-spacing: 2px;}
+
+
+
+.menu-page ul {
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 15px;
+  background-color: #957878e7;
+  width: 70%; 
+  border-radius: 8px; 
+  display:flex;
+   gap: 10px;}
+
+.menu-page li {
+  padding: 10px;
+  background-color: #dccccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.461);
+  display:flex; 
+  justify-content: space-between; 
+  align-items: center; }
+
+.menu-page h5{
+  margin: 0;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 5px;
+  padding-left: 10px;  
+  color: #333;}
+
+.menu-page span{
+  font-size: 16px;
+  color: #454141;
+  font-weight: bold;}
+
+.menu-page .section-title {
+  
+  font-size: 24px;
+  font-weight: bold;
+  color: #51382f;
+  margin-bottom: 20px;
+  background-color: #3e272360;
+  padding: 15px;
+  border-radius: 5px;  }
+
+
+.menu-page section {
+  margin-bottom: 10px;
+  padding: 9px;
+  background-color: #f0e4e4;
+  border-radius: 5px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.463);
+  display:flex; }
+
+.menu-page section:last-of-type {
+  margin-bottom: 0;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+         
+
+
+           
+ 
+    
+    
+   
+
+    
+    
+
+
+
+
+
